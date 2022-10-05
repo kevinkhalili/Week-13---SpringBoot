@@ -40,7 +40,7 @@ class FetchJeepTest {
     JeepModel model = JeepModel.WRANGLER;
     String trim = "Sport";
     String uri = String
-        .format("http://localhost:%d/Jeeps?model=%s&trim=%s"
+        .format("http://localhost:%d/jeeps?model=%s&trim=%s"
         ,  serverPort, model, trim);
         
     // When a connection is made to URI    
